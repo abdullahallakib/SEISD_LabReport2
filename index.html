@@ -33,15 +33,24 @@
             width: 100%;
         }
 
-        /* Style for the signup button */
-        #signup-btn {
-            background-color: #4CAF50;
-            color: white;
+        /* Style for the signup and signin buttons */
+        .auth-btn {
             padding: 10px 20px;
             border: none;
             border-radius: 5px;
             cursor: pointer;
             font-size: 16px;
+            margin-right: 10px;
+        }
+
+        #signup-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        #signin-btn {
+            background-color: #2196F3;
+            color: white;
         }
     </style>
 </head>
@@ -59,8 +68,9 @@
             <!-- Product items will be dynamically added here -->
         </ul>
 
-        <!-- Signup button -->
-        <button id="signup-btn">Sign Up</button>
+        <!-- Signup and Sign In buttons -->
+        <button id="signup-btn" class="auth-btn">Sign Up</button>
+        <button id="signin-btn" class="auth-btn">Sign In</button>
     </main>
 
     <footer>
